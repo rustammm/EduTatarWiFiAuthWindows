@@ -4,11 +4,14 @@ edu.tatar.ru WiFi Authorization
 # Установка
 **python 2.7**
 
+
 *Перед установкой*:
 
 Во время установке в части "Customize Python 2..." выберите последний пункт ("Add python.exe to Path")  
 
-Ссылка на установку [python](https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi)
+Ссылка на установку [python](https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi) 
+
+Ссылка на EduTatarAuth[Скачать ZIP](https://github.com/rustammm/EduTatarWiFiAuthWindows/archive/master.zip)
 
 
 
