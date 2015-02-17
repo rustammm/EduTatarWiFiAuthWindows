@@ -1,4 +1,4 @@
-# EduTatarWiFiAuthWidnows
+# EduTatarWiFiAuthWindows
 edu.tatar.ru WiFi Authorization
 
 # Установка
