@@ -3,7 +3,7 @@ edu.tatar.ru WiFi Authorization
 
 # Установка
 
-Ссылка на EduTatarAuth [Скачать ZIP](https://github.com/rustammm/EduTatarWiFiAuthWindows/archive/master.zip)
+Ссылка EduTatarAuth [Скачать ZIP](https://github.com/rustammm/EduTatarWiFiAuthWindows/releases/latest)
 
 *Требуется только разархировать*
 
