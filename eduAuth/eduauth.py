@@ -1,4 +1,5 @@
-#!/usr/bin/python
+﻿#!/usr/bin/python
+# vim: set fileencoding=utf-8 :
 
 import sys
 import urllib
@@ -35,12 +36,12 @@ hasValues = [0, 0]
 if __name__ == "__main__":
 	if len(sys.argv) == 1:
 		print " Error \n Type eduproxy.py -h"
-		exit()
+		sys.exit(0)
 	for param in sys.argv:
 		if param == "-h":
 			print "Help: \n -h  help \n -u Username \n -p Password\
 			\n-v Verbose (print HTML)\nE.g: \n eduauth.py -u=4702000300 -p=password -v"
-			exit()
+			sys.exit(0)
 		if param == "-v":
 			values[2] = 1
 			continue
@@ -55,5 +56,5 @@ if __name__ == "__main__":
 
 if (sum(hasValues) != 2):
 	print " Error: \nNot enough params\nTry eduproxy.py -h"
-	exit()
+	sys.exit(0)
 print int(auth(values[0], values[1], values[2]))
